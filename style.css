@@ -62,20 +62,40 @@ nav{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 nav ul{
+  font-family:Georgia, serif ;
   display: flex;
 
 }
+
+nav h1{
+  font-family:Georgia, serif ;
+}
+
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
+  font-family:Georgia, serif ;
   text-decoration: none;
   color: #ffffff;
   padding: 15px 30px;
   text-transform: uppercase;
   transition: .3s ease;
+}
+.menu li a{
+  margin-top:10px;
+  margin-left: 30px;
+  height: 100%;
+  text-decoration: none;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0px 30px;
+  display: flex;
+  
 }
 nav ul li a:hover {
   color: #000000;
@@ -201,7 +221,7 @@ section{
     margin-left: 100px;
     margin-right: 150px;
     display: flex;
-    background-color: rgb(204, 206, 206);
+    
 }
 .map iframe{
 
